@@ -3,11 +3,6 @@ class BugsController < ApplicationController
   # GET /bugs.json
   def index
     @bugs = Bug.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @bugs }
-    end
   end
 
   # GET /bugs/1
