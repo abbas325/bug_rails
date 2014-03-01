@@ -20,10 +20,6 @@ class BugsController < ApplicationController
   # GET /bugs/new.json
   def new
     @bug = Bug.new
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @bug }
-    end
   end
 
   # GET /bugs/1/edit
