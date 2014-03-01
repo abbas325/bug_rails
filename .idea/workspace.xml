@@ -36,7 +36,11 @@
         <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="25" selection-start="448" selection-end="448" vertical-scroll-proportion="-10.0">
-              <folding />
+              <folding>
+                <marker date="1393053834000" expanded="true" signature="59:447" placeholder="..." />
+                <marker date="1393053834000" expanded="true" signature="69:161" placeholder="..." />
+                <marker date="1393053834000" expanded="true" signature="208:426" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +75,7 @@
       <file leaf-file-name="projects_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="51" selection-start="153" selection-end="153" vertical-scroll-proportion="0.10714286">
+            <state line="5" column="3" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12733446">
               <folding />
             </state>
           </provider>
@@ -128,16 +132,16 @@
         <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1303" />
-    <option name="height" value="744" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -537,7 +541,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="24" width="1303" height="744" extended-state="7" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -672,7 +676,11 @@
     <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="25" selection-start="448" selection-end="448" vertical-scroll-proportion="-10.0">
-          <folding />
+          <folding>
+            <marker date="1393053834000" expanded="true" signature="59:447" placeholder="..." />
+            <marker date="1393053834000" expanded="true" signature="69:161" placeholder="..." />
+            <marker date="1393053834000" expanded="true" signature="208:426" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -706,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="153" selection-end="153" vertical-scroll-proportion="0.10714286">
+        <state line="5" column="3" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12733446">
           <folding />
         </state>
       </provider>

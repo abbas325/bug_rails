@@ -2,8 +2,8 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.json
   def index
-   @projects = Project.find_all_by_user_id(params[:id])
-   #@projects =  Project.all
+   #@projects = Project.find_all_by_user_id(params[:id])
+   @projects =  Project.all
    #
    # #@project = Project.scoped
    # #@project = @project.by_user(params[:user_id]) if params[:user_id]
