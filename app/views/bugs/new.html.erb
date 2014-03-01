@@ -1,0 +1,37 @@
+<h1>New bug</h1>
+
+<%#= render 'form' %>
+
+<%#= link_to 'Back', bugs_path %>
+
+<h1>Welcome to User Creator page to create bug.</h1>
+<h1><%= current_user.username %></h1>
+
+<%= form_for (@project,@bug) do |b|  %>
+    <%#= render 'shared/error_messages' %>
+
+    <%= b.label :title %>
+    <%= b.text_field :title %>
+
+    <%= b.label :description %>
+    <%= b.text_field :description %>
+
+    <%= b.label :type %>
+    <%= b.text_field :type %>
+
+    <%= b.label :deadline %>
+    <%=# b.time_select_field :deadline %>
+
+
+    <%= b.label :status %>
+    <%= b.options_field :status %>
+
+
+    <%= b.label :creator_id %>
+    <%= b.text_field :creator_id %>
+
+    <%= b.label :project_id %>
+    <%= b.password_field :project_id %>
+
+    <%= b.submit "Create Bug", class: "btn btn-large btn-primary" %>
+<% end %>

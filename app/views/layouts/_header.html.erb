@@ -1,0 +1,30 @@
+<header class="navbar navbar-fixed-top navbar-inverse" xmlns="http://www.w3.org/1999/html"
+        xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+  <div class="navbar-inner">
+    <div class="container">
+      <nav>
+        <ul class="nav pull-right">
+          <li><%#= link_to "Home", root_path %></li>
+          <%  if current_user %>
+
+              <li><%= link_to "Sign Out" , logout_path%></li>
+              <% if current_user.user_type == "creator" %>
+                <li><%= link_to "Create Bug" %></li>
+                  <li><%= link_to "Assign Bug"%></li>
+              <% end %>
+          <%  else %>
+             <li> <%= link_to "Sign Up", signup_path %></li>
+              <li><%= link_to "Sign In", login_path %></li>
+          <% end %>
+
+    <% flash.each do |name, msg|  %>
+        <%#= content_tag :div, msg, :id => flash_#{name} %>
+    <% end %>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
