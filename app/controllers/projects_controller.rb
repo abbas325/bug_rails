@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
    #@projects = Project.find_all_by_user_id(params[:id])
-   @projects =  Project.all
+   @projects =  current_user.projects
    #
    # #@project = Project.scoped
    # #@project = @project.by_user(params[:user_id]) if params[:user_id]
@@ -18,10 +18,10 @@ class ProjectsController < ApplicationController
     #@project = Project.find(params[:id])
     #@project = Project.find_all_by_user_id(params[user_id])
 
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @project }
-    end
+    # respond_to do |format|
+    #   format.html # show.html.erb
+    #   format.json { render json: @project }
+    # end
   end
 
   # GET /projects/new

@@ -10,8 +10,8 @@
       <tr>
         <td><%=project.id%></td>
         <td><%= project.name%></td>
-        <td><%=project.description%></td>
-        <td><%= button_to "Create Bug",user_project_path,{:class => "btn btn-primary"} %></td>
+        <td><%=project.descripton%></td>
+        <td><%= button_to "Create Bug", new_project_bug_path(project) ,{:class => "btn btn-primary"} %></td>
       </tr>
   <% end %>
 </table>
